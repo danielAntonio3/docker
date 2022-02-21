@@ -18,4 +18,4 @@ COPY [".", "/usr/src/"]
 EXPOSE 3000
 
 # comando de ejecucion
-CMD ["npx","nodemon", "index.js"]
+CMD ["node", "index.js"]
